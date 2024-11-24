@@ -40,5 +40,5 @@ After that, use the **`git push`** command to push into the GitHub repository.
 | Setup                   | Contains the environment setup files and dependencies required to run. |
 
 
-# Timeline
+
 
