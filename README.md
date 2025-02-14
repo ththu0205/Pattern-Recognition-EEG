@@ -17,7 +17,7 @@ To download the data, you can access the `dataset` folder or download it from th
 
 | **Folder**              | **Description**                                              |
 |-------------------------|--------------------------------------------------------------|
-| data                    | Contains the original dataset used for training and testing. |
+| dataset                 | Contains the original dataset used for training and testing. |
 | report                  | Documented reports and presentations summarizing the project findings. |
 | set_up                  | Contains the environment setup files and dependencies required to run. |
 
