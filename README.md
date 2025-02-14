@@ -11,7 +11,7 @@ The dataset consists of EEG recordings from **5 subjects**, with each subject pe
 
 For model training and analysis, EEG data from the last **5 days** of experiments (except for one subject with 4 days) was selected. The dataset is stored in `.mat` format, with files named as `eeg_recordX.mat`, where **X** ranges from **1 to 34**, corresponding to 34 recorded experiments. Each file contains raw EEG signals, which will be preprocessed and analyzed for classification.
 
-To download the data, you can access the `data` folder or download it from the following **Kaggle** link: [data_here](https://www.kaggle.com/datasets/inancigdem/eeg-data-for-mental-attention-state-detection/data)
+To download the data, you can access the `dataset` folder or download it from the following **Kaggle** link: [data_here](https://www.kaggle.com/datasets/inancigdem/eeg-data-for-mental-attention-state-detection/data)
 
 ## Project Structure
 
