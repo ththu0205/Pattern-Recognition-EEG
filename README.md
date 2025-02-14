@@ -1,9 +1,27 @@
-# Pattern-Recognition-EEG
-This project aims to classify mental attention states — focused, unfocused, and drowsy — using EEG signals and machine learning techniques. By analyzing EEG data collected from EMOTIV devices, the goal is to develop a reliable classification model that can distinguish different mental states, contributing to applications in cognitive enhancement, neurofeedback, and mental state monitoring.
+# **Pattern-Recognition-EEG**
 
+## Description
+This project focuses on classifying mental attention states — **focused, unfocused, and drowsy** — using EEG signals recorded from EMOTIV devices. By applying machine learning techniques, we aim to develop an accurate and reliable model to distinguish these states. The results can support various applications, including cognitive enhancement, neurofeedback, and real-time mental state monitoring.
 
+### **About Data**  
+The dataset consists of EEG recordings from **5 subjects**, with each subject performing 7 experiments, except for one who completed 6 experiments. EEG signals were recorded at `128 Hz` across multiple trials from **4 to 17 channels**. Mental states were labeled based on time intervals:  
+- **Focused**: 0 - 10 minutes  
+- **Unfocused**: 10 - 20 minutes  
+- **Drowsy**: 20 minutes onward  
 
-# Members
+For model training and analysis, EEG data from the last **5 days** of experiments (except for one subject with 4 days) was selected. The dataset is stored in `.mat` format, with files named as `eeg_recordX.mat`, where **X** ranges from **1 to 34**, corresponding to 34 recorded experiments. Each file contains raw EEG signals, which will be preprocessed and analyzed for classification.
+
+To download the data, you can access the `data` folder or download it from the following **Kaggle** link: [data_here](https://www.kaggle.com/datasets/inancigdem/eeg-data-for-mental-attention-state-detection/data)
+
+## Project Structure
+
+| **Folder**              | **Description**                                              |
+|-------------------------|--------------------------------------------------------------|
+| data                    | Contains the original dataset used for training and testing. |
+| report                  | Documented reports and presentations summarizing the project findings. |
+| set_up                  | Contains the environment setup files and dependencies required to run. |
+
+## Contributors
 | **Name**| **Major**| **University**|
 |-|-|-|
 | Kieu Thi Ngoc Vui     | Data Science  | University of Science (VNUHCM) |
@@ -12,7 +30,7 @@ This project aims to classify mental attention states — focused, unfocused, an
 | Huynh Thao Quynh      | Data Science  | University of Science (VNUHCM) |
 
 
-# Git Commit Message Rule
+## Git Commit Message Rule
 After performing the **`git add .`** command, the **`git commit`** message should follow this structure:
 
     git commit -m "[folder/file updated] - [task description]"
@@ -27,17 +45,7 @@ After that, use the **`git push`** command to push into the GitHub repository.
 
 
 
-# Project Structure
 
-| **Folder**              | **Description**                                              |
-|-------------------------|--------------------------------------------------------------|
-| Data                    | Contains the original dataset used for training and testing. |
-| Data_Preprocessing      | Source code for data cleaning, normalization, and filtering. |
-| Feature_Engineering     | Source code for feature extraction, transformation, and selection processes. |
-| Model_Development       | Source code for training Machine Learning models |
-| Visualization           | Source code for visualizing the raw data, derived features, and model performance metrics such as confusion matrices and ROC curves. |
-| Reports                 | Documented reports and presentations summarizing the project findings. |
-| Setup                   | Contains the environment setup files and dependencies required to run. |
 
 
 
